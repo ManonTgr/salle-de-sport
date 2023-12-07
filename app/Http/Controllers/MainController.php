@@ -6,7 +6,7 @@ use Illuminate\Http\Request;
 
 class MainController extends Controller
 {
-    public function AccueilController()
+    public function AcceuilController()
 {
     return view('acceuil');
 }

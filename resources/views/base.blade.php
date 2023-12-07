@@ -11,17 +11,17 @@
     <header>
         <h1>Site Salle de Sport</h1>
         <nav>
-            <a href="{{ route('acceuil') }}">Aller vers la page Acceuil</a>
-            <a href="{{ route('cours') }}">Aller vers la page cours</a>
-            <a href="{{ route('tarif') }}">Aller vers la page tarif</a>
-            <a href="{{ route('contact') }}">Aller vers la page contact</a>
+            <a href="{{ route('main.acceuil') }}">Aller vers la page Acceuil</a>
+            <a href="{{ route('main.cours') }}">Aller vers la page cours</a>
+            <a href="{{ route('main.tarif') }}">Aller vers la page tarif</a>
+            <a href="{{ route('main.contact') }}">Aller vers la page contact</a>
         </nav>  
     </header>
     @yield('content')
     
     <footer>
         
-        <a href="{{ route('mentions-legales') }}">Aller vers la page Mentions Légales</a>
+        <a href="{{ route('main.mentions-legales') }}">Aller vers la page Mentions Légales</a>
     </footer>
 </body>
 </html>
