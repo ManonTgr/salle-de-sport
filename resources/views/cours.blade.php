@@ -3,6 +3,8 @@
 @section('content')
 
 <title> Voici les cours </title>
+
+<h2> Les cours de la semaine </h2>
 <p> • lundi 19h à 21h zumba
     • mardi 19h30 à 21h30 pilate
     • jeudi 20h à 22h boxe anglaise

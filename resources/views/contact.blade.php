@@ -3,6 +3,9 @@
 @section('content')
 
 <title> Pour nous contacter </title>
+
+
+<h2> Contact </h2>
 <p>• téléphone : le 06 00 00 00 00
     • adresse : 5 Bd Louis XIV, 59800 Lille
     • il faut ajouter une carte Google Maps ou Open Street Map
