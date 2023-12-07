@@ -15,9 +15,13 @@
             <a href="{{ route('cours') }}">Aller vers la page cours</a>
             <a href="{{ route('tarif') }}">Aller vers la page tarif</a>
             <a href="{{ route('contact') }}">Aller vers la page contact</a>
-            <a href="{{ route('mentions-legales') }}">Aller vers la page Mentions Légales</a>
         </nav>  
     </header>
     @yield('content')
+    
+    <footer>
+        
+        <a href="{{ route('mentions-legales') }}">Aller vers la page Mentions Légales</a>
+    </footer>
 </body>
 </html>
