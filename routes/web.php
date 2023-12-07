@@ -13,22 +13,27 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/acceuil', function () {
-    return view('acceuil');
-});
+Route::get('/',[MainController::class,'acceuil'])->name ('main.acceuil');
 
-Route::get('/cours', function () {
-    return view('cours');
-});
+Route::get('/acceuil', [MainController::class, 'acceuil'])
+->name('main.acceuil');
 
-Route::get('/tarif', function () {
-    return view('tarif');
-});
+Route::get('/',[MainController::class,'cours'])->name ('main.cours');
 
-Route::get('/contact', function () {
-    return view('contact');
-});
+Route::get('/cours', [MainController::class, 'cours'])
+->name('main.cours');
 
-Route::get('/mentions-legales', function () {
-    return view('mentions-legales');
-});
+Route::get('/',[MainController::class,'tarif'])->name ('main.tarif');
+
+Route::get('/tarif', [MainController::class, 'tarif'])
+->name('main.tarif');
+
+Route::get('/',[MainController::class,'contact'])->name ('main.contact');
+
+Route::get('/contact', [MainController::class, 'contact'])
+->name('main.contact');
+
+Route::get('/',[MainController::class,'mentions-legales'])->name ('main.mentions-legales');
+
+Route::get('/mentions-legales', [MainController::class, 'mentions-legales'])
+->name('main.mentions-legales');
